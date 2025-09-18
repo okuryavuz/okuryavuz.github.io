@@ -1,5 +1,5 @@
-baseURL: "https://selamisafa.github.io/" 
-title: Selami Safa Balik - Portfolio
+baseURL: "https://okuryavuz.github.io/" 
+title: Yavuz Selim Okur - Portfolio
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -11,18 +11,15 @@ taxonomies:
 menu:
     main:
         - name: Games
-          url: games/
+          url: https://yavuzselimokur.itch.io/
           weight: 1 
-        - name: Work Experiences
-          url: work/
-          weight: 2
 
 params:
-    description: "I am an indie Game Dev from Turkey. My games are mostly experimental and I promise all of them are on hold :)"
-    author: Selami Safa Balik
+    description: "I am Yavuz Selim. I've been trying to improve myself in game design and game development since 2016."
+    author: Yavuz Selim Okur
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: false
     disableThemeToggle: false
     ShowShareButtons: false
@@ -33,7 +30,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["games","work"]
+    MainSections: ["games"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -43,32 +40,25 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Selami Safa Balik
-          subtitle: "I am an indie game developer from Turkey with a passion for experimental games. My projects explore unique mechanics and unconventional narratives—most of them are on hold, but that’s part of the fun! I studied Digital Game Design at Istanbul Bilgi University and continue to push the boundaries of interactive experiences."
+          title: Yavuz Selim Okur
+          subtitle: "I am Yavuz Selim. I've been trying to improve myself in game design and game development since 2016. I have made a variety of games on Unity Engine and Unreal Engine. I hope to be a person that shape the game industry in the future."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
             - name: Games
-              url: games/
+              url: https://yavuzselimokur.itch.io/
               weight: 1 
-            - name: Work Experiences
-              url: work/
-              weight: 2
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:selamisafa@gmail.com
-        - name: itchio1
-          url: https://selamisafabalik.itch.io/
-        - name: itchio2
-          url: https://piskafir.itch.io/        
-        - name: GitHub
-          url: https://github.com/selamisafa
+          url: mailto:yavuzselimokur@gmail.com
+        - name: itchio
+          url: https://yavuzselimokur.itch.io/
         - name: linkedin
-          url: https://www.linkedin.com/in/selami-safa-balik/
+          url: https://www.linkedin.com/in/yavuz-selim-okur-8b6605164/
 
     assets:
         disableScrollBarStyle: true
@@ -76,7 +66,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Selami Safa Balik"
+      text: "Yavuz Selim Okur"
       icon: favicon.ico
       iconHeight: 18
 
